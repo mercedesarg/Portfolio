@@ -3,55 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Estudio Creativo - Servicios</title>
+  <title>Estudio Creativo - Social Media & Art Direction</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;800&display=swap" rel="stylesheet">
   <style>
     body { font-family: 'Plus Jakarta Sans', sans-serif; }
   </style>
 </head>
-<body class="bg-zinc-950 text-zinc-200 antialiased selection:bg-indigo-500 selection:text-white">
+<body class="bg-zinc-950 text-zinc-300 antialiased selection:bg-indigo-500 selection:text-white">
 
-  <!-- Hero Section de la Dupla -->
-  <header class="max-w-7xl mx-auto px-6 pt-24 pb-12">
-    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-sm font-medium text-zinc-400 mb-6">
+  <!-- Hero Section -->
+  <header class="max-w-7xl mx-auto px-6 pt-24 pb-20 flex flex-col items-center text-center">
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-zinc-900 border border-zinc-800 text-sm font-medium text-zinc-400 mb-8 shadow-xl">
       <span class="w-2 h-2 rounded-full bg-indigo-500 animate-pulse"></span>
-      Social Media Studio
+      Social Media & Content Studio
     </div>
-    <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight max-w-3xl mb-6">
+    <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight max-w-4xl mb-6 tracking-tight">
       Dos mentes creativas.<br>
       <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">Una estrategia implacable.</span>
     </h1>
-    <p class="text-lg text-zinc-400 max-w-2xl">
-      Elevamos la presencia digital de tu marca combinando dirección de arte impecable, periodismo en tiempo real y análisis de datos. Nuestro ecosistema de servicios:
+    <p class="text-lg md:text-xl text-zinc-400 max-w-2xl">
+      Elevamos la presencia digital de tu marca combinando dirección de arte de alto impacto, periodismo en tiempo real y análisis de datos profundo.
     </p>
   </header>
 
   <!-- Bento Box Grid de Servicios -->
   <section class="max-w-7xl mx-auto px-6 pb-24">
-    <div class="grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-4 auto-rows-[minmax(250px,auto)]">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[minmax(280px,auto)]">
 
-      <!-- Caja 1: Creación de Contenido (Grande - Ocupa 2 columnas) -->
-      <div class="col-span-1 md:col-span-2 bg-zinc-900 border border-zinc-800 rounded-3xl p-8 hover:border-indigo-500/50 transition-colors group relative overflow-hidden flex flex-col justify-between">
-        <div class="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
-          <svg class="w-32 h-32 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-        </div>
-        <div>
+      <!-- Caja 1: Creación de Contenido (2 columnas, con imagen de fondo) -->
+      <div class="col-span-1 md:col-span-2 relative bg-zinc-900 border border-zinc-800 rounded-3xl p-8 hover:border-indigo-500/50 transition-colors group overflow-hidden flex flex-col justify-between min-h-[320px]">
+        
+        <!-- REEMPLAZA "fondo-edicion.jpg" con una captura de Premiere o un diseño tuyo -->
+        <img src="fondo-edicion.jpg" alt="Fondo de edición" class="absolute inset-0 w-full h-full object-cover opacity-10 group-hover:opacity-30 transition-opacity duration-700 grayscale group-hover:grayscale-0">
+        <div class="absolute inset-0 bg-gradient-to-t from-zinc-900 via-zinc-900/80 to-transparent"></div>
+        
+        <div class="relative z-10">
           <h3 class="text-2xl font-bold text-white mb-3">Dirección de Arte & Contenido</h3>
-          <p class="text-zinc-400 max-w-md">El impacto visual es innegociable. Conceptualizamos y producimos piezas que detienen el scroll.</p>
+          <p class="text-zinc-400 max-w-md">El impacto visual es innegociable. Conceptualizamos, maquetamos y producimos piezas gráficas y audiovisuales que detienen el scroll.</p>
         </div>
-        <div class="mt-8 flex flex-wrap gap-2">
-          <span class="px-3 py-1 bg-zinc-950 border border-zinc-800 rounded-lg text-sm text-zinc-300">Diseño en Photoshop</span>
-          <span class="px-3 py-1 bg-zinc-950 border border-zinc-800 rounded-lg text-sm text-zinc-300">Edición de Video Dinámico</span>
-          <span class="px-3 py-1 bg-zinc-950 border border-zinc-800 rounded-lg text-sm text-zinc-300">Copywriting Persuasivo</span>
-          <span class="px-3 py-1 bg-zinc-950 border border-zinc-800 rounded-lg text-sm text-zinc-300">Posters & Flyers</span>
+        <div class="relative z-10 mt-8 flex flex-wrap gap-2">
+          <span class="px-3 py-1 bg-zinc-950/80 backdrop-blur-sm border border-zinc-800 rounded-lg text-sm text-zinc-300">Photoshop Avanzado</span>
+          <span class="px-3 py-1 bg-zinc-950/80 backdrop-blur-sm border border-zinc-800 rounded-lg text-sm text-zinc-300">Video Dinámico</span>
+          <span class="px-3 py-1 bg-zinc-950/80 backdrop-blur-sm border border-zinc-800 rounded-lg text-sm text-zinc-300">Copywriting</span>
         </div>
       </div>
 
-      <!-- Caja 2: Estrategia (Pequeña - 1 columna) -->
-      <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 hover:border-cyan-500/50 transition-colors group">
+      <!-- Caja 2: Estrategia -->
+      <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 hover:border-cyan-500/50 transition-colors group flex flex-col">
         <h3 class="text-xl font-bold text-white mb-3">Estrategia Digital</h3>
-        <p class="text-zinc-400 text-sm mb-6">Auditoría profunda y mapas de ruta claros antes de dar el primer paso.</p>
+        <p class="text-zinc-400 text-sm mb-6 flex-grow">Auditoría profunda y mapas de ruta claros antes de dar el primer paso.</p>
         <ul class="space-y-3 text-sm text-zinc-300">
           <li class="flex items-start gap-2">
             <svg class="w-5 h-5 text-cyan-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
@@ -63,41 +64,47 @@
           </li>
           <li class="flex items-start gap-2">
             <svg class="w-5 h-5 text-cyan-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-            Protocolos de crisis
+            Manejo de crisis
           </li>
         </ul>
       </div>
 
-      <!-- Caja 3: Analítica (Pequeña - 1 columna) -->
-      <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 hover:border-emerald-500/50 transition-colors group">
-         <h3 class="text-xl font-bold text-white mb-3">Data & Analítica</h3>
-        <p class="text-zinc-400 text-sm mb-6">Medimos lo que importa para escalar resultados mes a mes.</p>
-        <div class="flex items-end gap-2 mb-4">
+      <!-- Caja 3: Analítica -->
+      <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 hover:border-emerald-500/50 transition-colors group flex flex-col justify-between">
+         <div>
+           <h3 class="text-xl font-bold text-white mb-3">Data & Analítica</h3>
+           <p class="text-zinc-400 text-sm mb-6">Medimos lo que importa para escalar resultados de forma orgánica.</p>
+         </div>
+        <div class="flex items-end gap-2 mb-2">
           <div class="w-4 h-8 bg-zinc-800 rounded-sm group-hover:bg-emerald-500/40 transition-colors"></div>
           <div class="w-4 h-12 bg-zinc-800 rounded-sm group-hover:bg-emerald-500/60 transition-colors delay-75"></div>
-          <div class="w-4 h-16 bg-emerald-500 rounded-sm shadow-[0_0_15px_rgba(16,185,129,0.4)]"></div>
-          <span class="text-3xl font-bold text-white ml-2">+KPIs</span>
+          <div class="w-4 h-20 bg-emerald-500 rounded-sm shadow-[0_0_15px_rgba(16,185,129,0.4)]"></div>
+          <span class="text-3xl font-black text-white ml-2">+KPIs</span>
         </div>
-        <p class="text-xs text-zinc-500">Reportes de rendimiento, optimización iterativa y crecimiento neto.</p>
       </div>
 
-      <!-- Caja 4: Community Management (Grande - Ocupa 2 columnas) -->
-      <div class="col-span-1 md:col-span-2 bg-gradient-to-br from-zinc-900 to-zinc-950 border border-zinc-800 rounded-3xl p-8 hover:border-violet-500/50 transition-colors relative overflow-hidden">
-        <div class="relative z-10 flex flex-col md:flex-row justify-between h-full gap-8">
-          <div class="md:w-1/2">
-            <h3 class="text-2xl font-bold text-white mb-3">Community & Live Action</h3>
-            <p class="text-zinc-400 mb-6">No solo publicamos; generamos conversación. Expertos en dinámicas rápidas y fidelización de audiencias altamente activas.</p>
+      <!-- Caja 4: Community Management (2 columnas, enfoque en vivo) -->
+      <div class="col-span-1 md:col-span-2 relative bg-gradient-to-br from-zinc-900 to-zinc-950 border border-zinc-800 rounded-3xl p-8 hover:border-violet-500/50 transition-colors group">
+        <div class="flex flex-col md:flex-row justify-between h-full gap-8 items-center">
+          <div class="md:w-3/5">
+            <h3 class="text-2xl font-bold text-white mb-3 flex items-center gap-3">
+              <span class="w-3 h-3 rounded-full bg-red-500 animate-pulse"></span>
+              Live Action & Community
+            </h3>
+            <p class="text-zinc-400 mb-6">No solo publicamos; generamos conversación. Cobertura de la acción minuto a minuto con crónicas deportivas, reacciones rápidas y moderación de comunidades masivas.</p>
             <ul class="space-y-2 text-sm text-zinc-300">
               <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-violet-500"></span> Cobertura de eventos en tiempo real</li>
-              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-violet-500"></span> Trendjacking e integración cultural</li>
-              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-violet-500"></span> Interacción y retención de comunidad</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-violet-500"></span> Trendjacking e integración cultural (Memes)</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-violet-500"></span> Fidelización de audiencias nicho</li>
             </ul>
           </div>
-          <div class="md:w-1/2 flex items-center justify-center bg-zinc-950/50 rounded-2xl border border-zinc-800/50 p-6">
-            <div class="text-center">
-              <div class="text-sm text-zinc-500 mb-1">Impacto demostrable</div>
-              <div class="text-4xl font-black text-white">Engagement</div>
-              <div class="text-violet-400 mt-2 font-medium">Gestionamos el minuto a minuto.</div>
+          
+          <!-- REEMPLAZA "estadisticas.jpg" con una captura de pantalla de los +12K impresiones o un tweet viral -->
+          <div class="md:w-2/5 w-full h-48 rounded-2xl overflow-hidden border border-zinc-800 relative">
+            <img src="estadisticas.jpg" alt="Métricas de impacto" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 flex flex-col items-center justify-center bg-zinc-950/40">
+              <span class="text-3xl font-black text-white drop-shadow-md">Miles</span>
+              <span class="text-sm font-medium text-zinc-200 drop-shadow-md">de impresiones diarias</span>
             </div>
           </div>
         </div>
@@ -105,6 +112,64 @@
 
     </div>
   </section>
+
+  <!-- NUEVA SECCIÓN: Laboratorio Creativo / Portfolio Visual -->
+  <section class="max-w-7xl mx-auto px-6 pb-24">
+    <div class="flex items-end justify-between border-b border-zinc-800 pb-6 mb-10">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-extrabold text-white">Laboratorio Creativo</h2>
+        <p class="text-zinc-400 mt-2">Nuestra galería de pósters, flyers y piezas gráficas destacadas.</p>
+      </div>
+    </div>
+
+    <!-- Grid de Imágenes de Portfolio -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+      <!-- Pieza 1 -->
+      <div class="group relative aspect-[4/5] bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800 cursor-pointer">
+        <!-- REEMPLAZA "poster-1.jpg" con el nombre de tu primer diseño -->
+        <img src="poster-1.jpg" alt="Póster de carrera" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+        <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+          <span class="text-white font-bold text-lg">Póster Matchday</span>
+          <span class="text-zinc-400 text-sm">Art Direction & Texturas</span>
+        </div>
+      </div>
+
+      <!-- Pieza 2 -->
+      <div class="group relative aspect-[4/5] bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800 cursor-pointer">
+        <!-- REEMPLAZA "poster-2.jpg" con el nombre de tu segundo diseño -->
+        <img src="poster-2.jpg" alt="Flyer deportivo" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+        <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+          <span class="text-white font-bold text-lg">Visual Flyer</span>
+          <span class="text-zinc-400 text-sm">Composición e Iluminación</span>
+        </div>
+      </div>
+
+      <!-- Pieza 3 -->
+      <div class="group relative aspect-[4/5] bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800 cursor-pointer">
+        <!-- REEMPLAZA "poster-3.jpg" con el nombre de tu tercer diseño -->
+        <img src="poster-3.jpg" alt="Cobertura en vivo" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+        <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+          <span class="text-white font-bold text-lg">Cobertura Digital</span>
+          <span class="text-zinc-400 text-sm">Identidad Visual</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA / Footer -->
+  <footer class="border-t border-zinc-900 bg-zinc-950/50 py-20">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h3 class="text-3xl md:text-4xl font-bold text-white mb-6">¿Listos para acelerar el crecimiento de tu marca?</h3>
+      <p class="text-zinc-400 mb-10">Llevemos tu comunidad al siguiente nivel con contenido que impacta y convierte.</p>
+      
+      <!-- REEMPLAZA "mailto:tu-correo@gmail.com" con tu email de contacto o link a X -->
+      <a href="mailto:tu-correo@gmail.com" class="inline-block bg-white text-zinc-950 font-bold text-lg py-4 px-10 rounded-full hover:bg-indigo-400 hover:text-white transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(99,102,241,0.4)]">
+        Hablemos del proyecto
+      </a>
+    </div>
+  </footer>
 
 </body>
 </html>
